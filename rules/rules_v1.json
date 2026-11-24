@@ -1,0 +1,4 @@
+{"version":"v1","max_score":100,"min_scripts_per_marker":20,
+ "deviation_threshold":5,"max_adjustment":8,"min_stdev":3,
+ "grade_bands":[{"grade":"A","min":70},{"grade":"B","min":60},
+ {"grade":"C","min":50},{"grade":"D","min":40},{"grade":"F","min":0}]}
