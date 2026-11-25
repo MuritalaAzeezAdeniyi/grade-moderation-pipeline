@@ -1,0 +1,156 @@
+[
+  {
+    "alert_type": "GRADE_CHANGED",
+    "details": {
+      "count": 15,
+      "n": 25,
+      "percentage": "60.0000"
+    },
+    "marker_id": "GENEROUS",
+    "severity": "info",
+    "subject": "Mathematics"
+  },
+  {
+    "alert_type": "MARKER_DEVIATION",
+    "details": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25
+    },
+    "marker_id": "GENEROUS",
+    "severity": "warn",
+    "subject": "Mathematics"
+  },
+  {
+    "alert_type": "LOW_SPREAD",
+    "details": {
+      "min_stdev": "3.0",
+      "n": 25,
+      "stdev": "1.0307"
+    },
+    "marker_id": "LOW_SPREAD",
+    "severity": "warn",
+    "subject": "Mathematics"
+  },
+  {
+    "alert_type": "INSUFFICIENT_SAMPLE",
+    "details": {
+      "min_scripts_per_marker": 20,
+      "n": 8
+    },
+    "marker_id": "SMALL",
+    "severity": "info",
+    "subject": "Mathematics"
+  },
+  {
+    "alert_type": "ADJUSTMENT_CAPPED",
+    "details": {
+      "deviation": "-10.5681",
+      "max_adjustment": "8.0"
+    },
+    "marker_id": "STRICT",
+    "severity": "warn",
+    "subject": "Mathematics"
+  },
+  {
+    "alert_type": "GRADE_CHANGED",
+    "details": {
+      "count": 22,
+      "n": 25,
+      "percentage": "88.0000"
+    },
+    "marker_id": "STRICT",
+    "severity": "info",
+    "subject": "Mathematics"
+  },
+  {
+    "alert_type": "MARKER_DEVIATION",
+    "details": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25
+    },
+    "marker_id": "STRICT",
+    "severity": "warn",
+    "subject": "Mathematics"
+  },
+  {
+    "alert_type": "GRADE_CHANGED",
+    "details": {
+      "count": 18,
+      "n": 25,
+      "percentage": "72.0000"
+    },
+    "marker_id": "GENEROUS",
+    "severity": "info",
+    "subject": "Science"
+  },
+  {
+    "alert_type": "MARKER_DEVIATION",
+    "details": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25
+    },
+    "marker_id": "GENEROUS",
+    "severity": "warn",
+    "subject": "Science"
+  },
+  {
+    "alert_type": "LOW_SPREAD",
+    "details": {
+      "min_stdev": "3.0",
+      "n": 25,
+      "stdev": "0.9381"
+    },
+    "marker_id": "LOW_SPREAD",
+    "severity": "warn",
+    "subject": "Science"
+  },
+  {
+    "alert_type": "INSUFFICIENT_SAMPLE",
+    "details": {
+      "min_scripts_per_marker": 20,
+      "n": 8
+    },
+    "marker_id": "SMALL",
+    "severity": "info",
+    "subject": "Science"
+  },
+  {
+    "alert_type": "ADJUSTMENT_CAPPED",
+    "details": {
+      "deviation": "-10.8776",
+      "max_adjustment": "8.0"
+    },
+    "marker_id": "STRICT",
+    "severity": "warn",
+    "subject": "Science"
+  },
+  {
+    "alert_type": "GRADE_CHANGED",
+    "details": {
+      "count": 17,
+      "n": 25,
+      "percentage": "68.0000"
+    },
+    "marker_id": "STRICT",
+    "severity": "info",
+    "subject": "Science"
+  },
+  {
+    "alert_type": "MARKER_DEVIATION",
+    "details": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25
+    },
+    "marker_id": "STRICT",
+    "severity": "warn",
+    "subject": "Science"
+  }
+]

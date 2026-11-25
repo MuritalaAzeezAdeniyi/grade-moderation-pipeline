@@ -1,0 +1,1902 @@
+[
+  {
+    "adjusted_score": 65,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "57.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0001",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 65,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "57.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0002",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 51,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "43.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0003",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 60,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "52.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0004",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 64,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "56.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0005",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 63,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "55.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0006",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 56,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "48.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0007",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 57,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "49.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0008",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 62,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "54.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0009",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 55,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "47.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0010",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 60,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "52.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0011",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 53,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "45.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0012",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 61,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "53.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0013",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 54,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "46.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0014",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 61,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "53.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0015",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 68,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "STRICT",
+    "raw_score": "60.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0016",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 68,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "STRICT",
+    "raw_score": "60.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0017",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 67,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "59.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0018",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 52,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "44.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0019",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 64,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "56.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0020",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 58,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "50.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0021",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 54,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "46.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0022",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 62,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "54.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0023",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 65,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "57.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0024",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 72,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "-10.5681",
+      "marker_mean": "52.6800",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "A",
+    "grade_before": "B",
+    "marker_id": "STRICT",
+    "raw_score": "64.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0025",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 64,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "71.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0026",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 72,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "A",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "79.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0027",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 46,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "D",
+    "grade_before": "C",
+    "marker_id": "GENEROUS",
+    "raw_score": "53.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0028",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 63,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "70.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0029",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 65,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "72.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0030",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 62,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "69.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0031",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 70,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "A",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "77.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0032",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 64,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "71.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0033",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 70,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "A",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "77.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0034",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 71,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "A",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "78.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0035",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 60,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "67.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0036",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 64,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "71.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0037",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 64,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "71.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0038",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 64,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "71.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0039",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 60,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "67.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0040",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 61,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "68.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0041",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 67,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "74.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0042",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 60,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "67.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0043",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 62,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "69.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0044",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 69,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "76.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0045",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 69,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "76.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0046",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 65,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "72.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0047",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 58,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "65.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0048",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 54,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "61.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0049",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 66,
+    "delta": -7,
+    "facts": {
+      "cohort_mean": "63.2481",
+      "deviation": "7.3519",
+      "marker_mean": "70.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "73.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "MAT-0050",
+    "subject": "Mathematics"
+  },
+  {
+    "adjusted_score": 59,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "51.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0200",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 61,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "53.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0201",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 58,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "50.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0202",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 62,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "54.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0203",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 68,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "STRICT",
+    "raw_score": "60.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0204",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 71,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "A",
+    "grade_before": "B",
+    "marker_id": "STRICT",
+    "raw_score": "63.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0205",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 58,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "50.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0206",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 59,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "51.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0207",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 61,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "53.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0208",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 55,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "47.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0209",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 51,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "43.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0210",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 63,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "55.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0211",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 50,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "42.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0212",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 59,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "51.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0213",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 66,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "58.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0214",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 63,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "55.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0215",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 55,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "47.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0216",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 61,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "53.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0217",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 62,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "54.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0218",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 69,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "STRICT",
+    "raw_score": "61.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0219",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 67,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "59.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0220",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 65,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "57.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0221",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 62,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "C",
+    "marker_id": "STRICT",
+    "raw_score": "54.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0222",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 56,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "D",
+    "marker_id": "STRICT",
+    "raw_score": "48.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0223",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 68,
+    "delta": 8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "-10.8776",
+      "marker_mean": "53.1600",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "STRICT",
+    "raw_score": "60.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0224",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 70,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "A",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "78.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0225",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 65,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "73.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0226",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 62,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "70.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0227",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 68,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "76.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0228",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 63,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "71.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0229",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 66,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "74.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0230",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 70,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "A",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "78.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0231",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 62,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "70.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0232",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 65,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "73.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0233",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 61,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "69.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0234",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 59,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "67.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0235",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 63,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "71.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0236",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 61,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "69.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0237",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 70,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "A",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "78.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0238",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 63,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "71.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0239",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 62,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "70.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0240",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 61,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "69.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0241",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 66,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "74.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0242",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 65,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "73.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0243",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 63,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "71.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0244",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 55,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "63.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0245",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 61,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "69.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0246",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 56,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "C",
+    "grade_before": "B",
+    "marker_id": "GENEROUS",
+    "raw_score": "64.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0247",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 66,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "74.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0248",
+    "subject": "Science"
+  },
+  {
+    "adjusted_score": 67,
+    "delta": -8,
+    "facts": {
+      "cohort_mean": "64.0376",
+      "deviation": "7.5624",
+      "marker_mean": "71.6000",
+      "n": 25,
+      "threshold": "5.0000"
+    },
+    "grade_after": "B",
+    "grade_before": "A",
+    "marker_id": "GENEROUS",
+    "raw_score": "75.00",
+    "rule_id": "MARKER_BIAS_V1",
+    "status": "PROPOSED",
+    "student_id": "SCI-0249",
+    "subject": "Science"
+  }
+]
