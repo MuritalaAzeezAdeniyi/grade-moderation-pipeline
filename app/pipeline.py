@@ -249,6 +249,16 @@ def run_pipeline(batch_or_session: Any, session_or_batch: Any = None) -> dict[st
             _fail_stage(session, batch_id, stage, exc)
             results[stage] = "failed"
 
+    deadline = time.monotonic() + 2.0
+    while time.monotonic() < deadline:
+        batch = session.query(Batch).filter_by(id=batch_id).one()
+        if batch.output_hash:
+            break
+        moderate = session.query(StageRun).filter_by(batch_id=batch_id, stage="MODERATE").one_or_none()
+        if moderate is None or moderate.status != "in_progress":
+            break
+        time.sleep(0.01)
+
     batch = session.query(Batch).filter_by(id=batch_id).one()
     results["output_hash"] = batch.output_hash or ""
     return results

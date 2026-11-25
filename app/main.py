@@ -1,17 +1,29 @@
+import csv
+import hashlib
+import io
 import json
 from decimal import Decimal
 
 from fastapi import FastAPI, File, HTTPException, UploadFile, Request
 from fastapi.exceptions import RequestValidationError
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, PlainTextResponse
+from pydantic import BaseModel, Field
 
 from app.database import init_db
 from app.ingestion import validate_ingest_file
-from app.models import Adjustment, Alert, AuditEvent, Batch, RejectedRow, StageRun
+from app.models import Adjustment, Alert, AuditEvent, Batch, Export, RejectedRow, Review, Score, StageRun
 from app.pipeline import resume, run_pipeline
 
 
 app = FastAPI(title="Grade Moderation Pipeline")
+
+
+class ReviewRequest(BaseModel):
+    marker_id: str
+    subject: str
+    decision: str
+    reviewer: str = Field(min_length=1)
+    note: str | None = None
 
 
 def _decimal(value):
@@ -51,6 +63,120 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
 @app.get("/health")
 async def health() -> dict[str, str]:
     return {"status": "ok"}
+
+
+@app.post("/batches/{batch_id}/review")
+async def review_batch(batch_id: int, request: ReviewRequest):
+    _, session_factory = init_db()
+    session = session_factory()
+    try:
+        _get_batch(session, batch_id)
+        decision = request.decision.strip().upper()
+        reviewer = request.reviewer.strip()
+        if not reviewer:
+            raise HTTPException(status_code=400, detail="Reviewer name is required")
+        if decision not in {"APPROVED", "REJECTED"}:
+            raise HTTPException(status_code=400, detail="Decision must be APPROVED or REJECTED")
+
+        existing = session.query(Review).filter_by(
+            batch_id=batch_id, marker_id=request.marker_id, subject=request.subject
+        ).one_or_none()
+        if existing is not None:
+            raise HTTPException(status_code=409, detail="A decision already exists for this marker and subject")
+
+        proposed = session.query(Adjustment).filter_by(
+            batch_id=batch_id, marker_id=request.marker_id, subject=request.subject, status="PROPOSED"
+        ).all()
+        if not proposed:
+            raise HTTPException(status_code=400, detail="No proposed adjustments for this marker and subject")
+
+        session.add(Review(
+            batch_id=batch_id, marker_id=request.marker_id, subject=request.subject,
+            decision=decision, reviewer=reviewer, note=request.note,
+        ))
+        for adjustment in proposed:
+            adjustment.status = decision
+
+        from app.audit import record_event
+        record_event(session, batch_id=batch_id, actor=reviewer, event_type="REVIEW_DECISION", details={
+            "marker_id": request.marker_id, "subject": request.subject,
+            "decision": decision, "note": request.note,
+        })
+        session.commit()
+        return {"marker_id": request.marker_id, "subject": request.subject, "decision": decision}
+    finally:
+        session.close()
+
+
+@app.post("/batches/{batch_id}/export")
+async def export_batch(batch_id: int):
+    _, session_factory = init_db()
+    session = session_factory()
+    try:
+        _get_batch(session, batch_id)
+        existing = session.query(Export).filter_by(batch_id=batch_id).order_by(Export.id).first()
+        if existing is not None:
+            return {"export_id": existing.id, "sha256": existing.sha256, "row_count": existing.row_count}
+
+        proposed_pairs = {(row.marker_id, row.subject) for row in session.query(Adjustment).filter_by(batch_id=batch_id, status="PROPOSED").all()}
+        reviewed_pairs = {(row.marker_id, row.subject) for row in session.query(Review).filter_by(batch_id=batch_id).all()}
+        if proposed_pairs - reviewed_pairs:
+            raise HTTPException(status_code=409, detail="Pending adjustment decisions prevent export")
+
+        scores = session.query(Score).filter_by(batch_id=batch_id).order_by(Score.subject, Score.student_id).all()
+        adjustments = {(row.student_id, row.marker_id, row.subject): row for row in session.query(Adjustment).filter_by(batch_id=batch_id).all()}
+        reviews = {(row.marker_id, row.subject): row for row in session.query(Review).filter_by(batch_id=batch_id).all()}
+
+        output = io.StringIO(newline="")
+        writer = csv.writer(output, lineterminator="\n")
+        writer.writerow(["student_id", "marker_id", "subject", "raw_score", "final_score", "adjusted", "rule_version", "batch_id"])
+
+        for score in scores:
+            adjustment = adjustments.get((score.student_id, score.marker_id, score.subject))
+            final_score = score.raw_score
+            adjusted = "false"
+            rule_version = ""
+
+            if adjustment is not None:
+                rule_version = "v1"
+                review = reviews.get((score.marker_id, score.subject))
+                if review is not None and review.decision == "APPROVED":
+                    final_score = Decimal(adjustment.adjusted_score)
+                    adjusted = "true"
+
+            final_text = str(final_score)
+            if "." in final_text:
+                final_text = final_text.rstrip("0").rstrip(".")
+            writer.writerow([score.student_id, score.marker_id, score.subject, str(score.raw_score), final_text, adjusted, rule_version, batch_id])
+
+        csv_text = output.getvalue()
+        csv_hash = hashlib.sha256(csv_text.encode("utf-8")).hexdigest()
+        export = Export(batch_id=batch_id, sha256=csv_hash, row_count=len(scores), csv_text=csv_text)
+        session.add(export)
+
+        from app.audit import record_event
+        record_event(session, batch_id=batch_id, actor="system", event_type="EXPORT_CREATED", details={"sha256": csv_hash, "row_count": len(scores)})
+        session.commit()
+        session.refresh(export)
+        return {"export_id": export.id, "sha256": export.sha256, "row_count": export.row_count}
+    finally:
+        session.close()
+
+
+@app.get("/batches/{batch_id}/export/download")
+async def download_export(batch_id: int):
+    _, session_factory = init_db()
+    session = session_factory()
+    try:
+        _get_batch(session, batch_id)
+        export = session.query(Export).filter_by(batch_id=batch_id).order_by(Export.id).first()
+        if export is None:
+            raise HTTPException(status_code=409, detail="Export does not exist")
+        return PlainTextResponse(export.csv_text, media_type="text/csv", headers={
+            "Content-Disposition": f"attachment; filename=batch_{batch_id}.csv"
+        })
+    finally:
+        session.close()
 
 
 @app.post("/batches")
